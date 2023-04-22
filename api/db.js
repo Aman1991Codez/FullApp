@@ -1,3 +1,5 @@
+// require("dotenv").db();
+
 import mysql from "mysql"
 
 export const db = mysql.createConnection({
@@ -5,8 +7,10 @@ export const db = mysql.createConnection({
   user:"root",
   // password: process.env.DB_KEY,
   password: "",
-  database:"klink"
+  database:"klink",
+  //  urlDB: 'mysql://root:idqCAmKNgeATaaAaQfrC@containers-us-west-126.railway.app:5488/railway'
+
 })
 
 
-// / * start Comenntgit 
+// / * start Comment JS
