@@ -9,7 +9,8 @@ export const db = mysql.createConnection({
   password: "",
   database:"klink",
   //  urlDB: 'mysql://root:idqCAmKNgeATaaAaQfrC@containers-us-west-126.railway.app:5488/railway'
-
+///okkkkk
+// ookk
 })
 
 
